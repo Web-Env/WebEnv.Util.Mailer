@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebEnv.Util.Mailer", "WebEnv.Util.Mailer\WebEnv.Util.Mailer.csproj", "{FD37D683-8663-439B-9AA7-41A81F8A8253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebEnv.Util.Mailer.Tests", "WebEnv.Util.Mailer.Tests\WebEnv.Util.Mailer.Tests.csproj", "{22553AE6-73E2-474E-8C96-376E0B3AB639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD37D683-8663-439B-9AA7-41A81F8A8253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD37D683-8663-439B-9AA7-41A81F8A8253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD37D683-8663-439B-9AA7-41A81F8A8253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD37D683-8663-439B-9AA7-41A81F8A8253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22553AE6-73E2-474E-8C96-376E0B3AB639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22553AE6-73E2-474E-8C96-376E0B3AB639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22553AE6-73E2-474E-8C96-376E0B3AB639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22553AE6-73E2-474E-8C96-376E0B3AB639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {658FE616-19F5-49FD-849D-363A8111E300}
+	EndGlobalSection
+EndGlobal

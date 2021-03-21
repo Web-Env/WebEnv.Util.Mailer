@@ -1,0 +1,10 @@
+{
+  "SmtpSettings": {
+    "emailFromName": "WebEnv",
+    "emailFromAddress": "noreply@webenv.io",
+    "emailSmtpHost": "smtp.reg365.net",
+    "emailSmtpPort": 465,
+    "emailSmtpUsername": "webenv.io",
+    "emailSmtpPassword": "<SMTP_PASSWORD>"
+  }
+}
