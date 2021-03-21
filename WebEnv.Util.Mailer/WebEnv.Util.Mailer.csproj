@@ -5,6 +5,7 @@
     <Authors>Adam Barry-O'Donovan</Authors>
     <Company>WebEnv</Company>
     <Description>Mailer nuget package</Description>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
