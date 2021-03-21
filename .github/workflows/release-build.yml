@@ -11,6 +11,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
+      with:
+       ref: ${{ github.event.release.tag_name }}
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
