@@ -1,0 +1,33 @@
+name: Release - Build, Test, Pack & Publish
+
+on:
+ release:
+    types: [published]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+    - name: Clean
+      run: dotnet clean ./WebEnv.Util.Mailer.sln -- configuration Release && dotnet nuget locals all --clear
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build (Release)
+      run: dotnet build -c Release --no-restore
+    - name: Pack
+      run: nuget pack ./WebEnv.Util.Mailer/.nuspec -OutputDirectory ./dist/ -Prop Configuration=Release
+    - name: Publish
+      run: dotnet nuget push ./dist/*nupkg -s https://nuget.pkg.github.com/Web-Env/index.json --api-key="${{ secrets.GPR_TOKEN }}"
+    - name: Archive Release
+      uses: actions/upload-artifact@v2
+      with:
+        name: WebEnv.Util.Mailer
+        path: ./dist
+        retention-days: 365

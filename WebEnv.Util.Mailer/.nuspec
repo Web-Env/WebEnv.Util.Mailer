@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>WebEnv.Util.Mailer</id>
+    <version>1.0.0</version>
+    <description>Mailer nuget package</description>
+    <authors>Adam Barry-O'Donovan</authors>
+    <projectUrl>https://github.com/Web-Env/WebEnv.Util.Mailer</projectUrl>
+    <repository type="git" url="https://github.com/Web-Env/WebEnv.Util.Mailer" />
+    <tags>Mailer</tags>
+    <dependencies>
+      <group targetFramework="net5.0" />
+      <group>
+        <dependency id="MailKit" version="2.11.1" />
+        <dependency id="MimeKit" version="2.11.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".\bin\Release\net5.0\WebEnv.Util.Mailer.dll" target="lib\net5.0\WebEnv.Util.Mailer.dll" />
+  </files>
+</package>
