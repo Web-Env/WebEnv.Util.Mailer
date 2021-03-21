@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>WebEnv.Util.Mailer</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>Mailer nuget package</description>
     <authors>Adam Barry-O'Donovan</authors>
     <projectUrl>https://github.com/Web-Env/WebEnv.Util.Mailer</projectUrl>

@@ -1,10 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <Authors>Adam Barry-O'Donovan</Authors>
     <Company>WebEnv</Company>
     <Description>Mailer nuget package</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
